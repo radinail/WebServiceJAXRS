@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="WebServiceJAXRS">
+                
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="jersey-client.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/mohamedrochdi.touzan/Downloads/jaxrs-ri-2.26/jaxrs-ri/lib/jersey-client.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-media-jaxb.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/mohamedrochdi.touzan/Downloads/jaxrs-ri-2.26/jaxrs-ri/lib/jersey-media-jaxb.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-container-servlet-core.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/mohamedrochdi.touzan/Downloads/jaxrs-ri-2.26/jaxrs-ri/lib/jersey-container-servlet-core.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-container-servlet.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/mohamedrochdi.touzan/Downloads/jaxrs-ri-2.26/jaxrs-ri/lib/jersey-container-servlet.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-hk2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/mohamedrochdi.touzan/Downloads/jaxrs-ri-2.26/jaxrs-ri/lib/jersey-hk2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-common.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/mohamedrochdi.touzan/Downloads/jaxrs-ri-2.26/jaxrs-ri/lib/jersey-common.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-media-sse.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/mohamedrochdi.touzan/Downloads/jaxrs-ri-2.26/jaxrs-ri/lib/jersey-media-sse.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-media-json-binding.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/mohamedrochdi.touzan/Downloads/jaxrs-ri-2.26/jaxrs-ri/lib/jersey-media-json-binding.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.ws.rs-api-2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/mohamedrochdi.touzan/Downloads/jaxrs-ri-2.26/jaxrs-ri/api/javax.ws.rs-api-2.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-server.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/mohamedrochdi.touzan/Downloads/jaxrs-ri-2.26/jaxrs-ri/lib/jersey-server.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax-inject.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/mohamedrochdi.touzan/Downloads/javax-inject.jar/javax-inject.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                
+        <property name="context-root" value="WebServiceJAXRS"/>
+                
+        <property name="java-output-path" value="/WebServiceJAXRS/build/classes"/>
+            
+    </wb-module>
+    
+</project-modules>
